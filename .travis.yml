@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "5.1"
+before_install:
+  -  npm cache -f clean
+  -  npm install
+install:
+  -  npm install electron-packager -g
